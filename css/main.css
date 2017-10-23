@@ -1,13 +1,39 @@
+h1{
+  font-family: sans-serif;
+}
+
 td{
-  outline: 1px solid blue;
+  /*: 1px solid blue;*/
 
 }
 
 table{
-  outline: 1px solid green;
+/*  outline: 1px solid green;*/
 }
-img{
+
+td{
   display: block;
-  height: 150px;
-  width: 100px;
+  padding: 0;
+  float: left;
+  height: 160px;
+}
+
+img{
+
+  display: block;
+  height: 140px;
+  width: 140px;
+  padding: 7px;
+  -webkit-filter: contrast(50%);
+}
+
+.name{
+  display: block;
+  text-align: right;
+  padding-right: 13px;
+  position: relative;
+  bottom: 30px;
+  font-size: 12px;
+  font-family: 'Pacifico', cursive;
+  color: white;
 }
