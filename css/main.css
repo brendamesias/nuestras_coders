@@ -1,0 +1,13 @@
+td{
+  outline: 1px solid blue;
+
+}
+
+table{
+  outline: 1px solid green;
+}
+img{
+  display: block;
+  height: 150px;
+  width: 100px;
+}
