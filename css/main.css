@@ -1,30 +1,37 @@
 h1{
   font-family: sans-serif;
+  position: relative;
+  left: 15px;
 }
-
-td{
-  /*: 1px solid blue;*/
-
+h1::after{
+  content: "";
+  width: 12%;
+  height: 3px;
+  background-color: black;
+  display: block;
 }
 
 table{
 /*  outline: 1px solid green;*/
+width: 720px;
+height:490;
 }
 
 td{
   display: block;
-  padding: 0;
+  padding: 10px;
   float: left;
-  height: 160px;
+  height: 220px;
 }
 
 img{
 
   display: block;
-  height: 140px;
-  width: 140px;
+  height: 200px;
+  width: 200px;
   padding: 7px;
-  -webkit-filter: contrast(50%);
+  -webkit-filter: contrast(60%);
+  border-radius: 15px;
 }
 
 .name{
@@ -32,8 +39,13 @@ img{
   text-align: right;
   padding-right: 13px;
   position: relative;
-  bottom: 30px;
-  font-size: 12px;
+  bottom: 50px;
+  font-size: 20px;
   font-family: 'Pacifico', cursive;
   color: white;
+}
+
+img:hover{
+  -webkit-filter: contrast(100%);
+    border-radius: 100px;
 }
